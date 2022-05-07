@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#233d4d">
+    <meta
+      name="description"
+      content="Hey I'm Waseem, I am a Full Stack Web Developer With Graphic Designing Skills"
+    />
+    <meta name="author" content="Waseem" />
+    <title>Waseem's Portfolio</title>
+    <link rel="icon" href="assets/imgs/icon.png" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="assets/scss/mainstyle.min.css" />
+  </head>
+  <!-- " -->
+  <body ondragstart="return false" oncontextmenu="return false;">
+    <!-- NAVBAR -->
+    <div class="top-bar sticky-top shadow">
+      <nav id="MenuBar" class="navbar  navbar-expand-lg navbar-transparent bg-transparent" >
+      <a class="navbar-brand" href="index.html">Waseem</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-ellipsis-v"></i>
+      </button>
+      <!-- MENU LINKS -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#myskills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#TechMahindra"
+              >Certification</a
+            >
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#myresume">Resume</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#myportfolio"
+              >Portfolio</a
+            >
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#myprojects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactdetails"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <!-- SOCIAL ICONS -->
+        <ul class="SocialIcons">
+          <li>
+            <a
+              href="https://bit.ly/3bh3FFu"
+              target="_blank"
+              title="instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://bit.ly/3hOyzsx"
+              target="_blank"
+              title="youtube"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://bit.ly/3sLGXwj"
+              target="_blank"
+              title="github"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://bit.ly/3kiTKm8"
+              target="_blank"
+              title="linkedin"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+
+    <!-- ON SCROLL BTN -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!-- HERO -->
+    <main class="Hero">
+      <div class="HeroImg">
+        <div>
+          <div class="container HeroTextContainer">
+            <div class="HeroText">
+              <div class="greet">
+                <span class="say-hi">Hi There!</span>
+              </div>
+              <h1 class="main-heading">I am Waseem</h1>
+              <h5 class="HeroTextColor">
+                <span class="typed TypedText"></span>
+              </h5>
+             <div class="d-flex mt-5 hero-btns">
+              <a href="#contactdetails" class="btn MainBtn mr-2"> Hire Me </a>
+              <a href="#myportfolio" class="btn MainBtn btn-two ml-2"> View Portfolio </a>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ABOUT -->
+    <section id="aboutme" class="About">
+      <h2 class="sub-heading">ABOUT ME</h2>
+      <p class="AboutTagLine">
+        I design and code beautifully simple things, and I love what I do.
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 col-12 ">
+            <div class="CenterImg">
+              <img
+                src="assets/imgs/myimgwas.png"
+                class="AboutImage img-fluid"
+                alt="about img"
+              />
+            </div>
+            <!-- <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul class="ListItem">
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Birthday:</span> 7-February
+                  </li>
+
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">City:</span> Visakhapatnam, AP
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul class="ListItem">
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Degree:</span> B-Tech -
+                    <abbr
+                      title="Computer Science and Engineering
+                    "
+                      >CSE</abbr
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Freelance:</span> Available
+                  </li>
+                </ul>
+              </div>
+            </div> -->
+          </div>
+          <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 Divs ">
+            <h3 class="SubHeading">Full Stack Web Developer & Graphic Designer</h3>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul class="ListItem">
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Birthday:</span> 7-February
+                  </li>
+
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">City:</span> Visakhapatnam, AP
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <ul class="ListItem">
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Degree:</span> B-Tech -
+                    <abbr
+                      title="Computer Science and Engineering
+                    "
+                      >CSE</abbr
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-chevron-right"></i
+                    ><span class="AboutSpan">Freelance:</span> Available
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <p class="AboutPara">
+              Hi, I'm <span>Mohammad Ghouse Mohiuddin Chisty</span>, you can
+              even call me as <span>Waseem</span>.
+
+              <br /><br />
+              A Developer who loves Designing, Building websites & web
+              applications was my dream job. I am specialized in both Front &
+              Back End Web Development along with Graphic Designing skills from
+              <span>Tech Mahindra Smart Academy</span>.<br /><br />
+              I also have experience working as a Freelancer, Started my online
+              <span>StartUp</span> known as <em><a href="http://www.webdevelopervizag.in"  target="_blank">Web Developer Vizag</a></em>, I have been Graduated from
+              <abbr
+                title="Nadimpalli Satyanarayana Raju Institute of Technology"
+                ><span>NSRIT</span></abbr
+              >
+              which is located in Visakhapatnam.
+            </p>
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="myskills" class="MySkills">
+      <div class="container">
+        <h2 class="sub-heading white">MY SKILLS</h2>
+
+        <div class="MySkillsBtnPlacement">
+          <button id="WebSkillsBtn" class="btn SBtn1">Web Development</button>
+          <button id="GraphicSkillsBtn" class="btn SBtn2">
+            Graphic Designing
+          </button>
+        </div>
+
+        <div class="row" id="webskills">
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 sm-p">
+            <div class="resizer">
+              <!-- Frontend -->
+              <h6 class="mt-3">Frontend</h6>
+              <div class="bar front html" data-skill="HTML">
+                <span class="pl-2">90%</span>
+              </div>
+              <div class="bar front css" data-skill="CSS">
+                <span class="pl-2">85%</span>
+              </div>
+              <div class="bar front bs" data-skill="Bootstrap">
+                <span class="pl-2">90%</span>
+              </div>
+              <div class="bar front js" data-skill="Javascript">
+                <span class="pl-2">80%</span>
+              </div>
+              <div class="bar front jq" data-skill="Jquery">
+                <span class="pl-2">75%</span>
+              </div>
+              
+                 <!-- sass -->
+                 <h6 class="mt-3">CSS - Preprocessor</h6>
+                 <div class="bar front sass" data-skill="SASS">
+                   <span class="pl-2">80%</span>
+                 </div>
+
+              
+             
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 side_imgs sm-p">
+            <div class="resizer">
+            
+              <!-- backend -->
+              <h6 class="mt-3">Backend</h6>
+              <div class="bar back php" data-skill="PHP">
+                <span class="pl-2">85%</span>
+              </div>
+              <div class="bar back mysql" data-skill="MySql">
+                <span class="pl-2">80%</span>
+              </div>
+
+           
+
+              <!-- CMS -->
+              <h6 class="mt-3">CMS / CRM</h6>
+              <div class="bar front CMS" data-skill="Wordpress">
+                <span class="pl-2">75%</span>
+              </div>
+
+                <!-- CRM -->
+                <!-- <h6 class="mt-3">CRM</h6> -->
+                <div class="bar front CRM" data-skill="HubSpot">
+                  <span class="pl-2">40%</span>
+                </div>
+
+                <!-- react -->
+                <h6 class="mt-3">Library</h6>
+                <div class="bar front react" data-skill="React">
+                    <span class="pl-2">65%</span>
+               </div>
+            </div>
+          </div>
+        </div>
+        <!-- graphic designing -->
+        <div class="row" id="graphicskills" style="display: none">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="resizer">
+              <!-- Graphic Designing -->
+              <h6 class="mt-3">Graphics</h6>
+              <div class="bar graphics ps" data-skill="Photoshop">
+                <span class="pl-2">85%</span>
+              </div>
+              <div class="bar graphics il" data-skill="Illustrator">
+                <span class="pl-2">70%</span>
+              </div>
+              <div class="bar graphics xd" data-skill="Adobe XD">
+                <span class="pl-2">75%</span>
+              </div>
+              <div class="bar graphics figma" data-skill="Figma">
+                <span class="pl-2">50%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="TechMahindra" id="TechMahindra">
+      <h2 class="sub-heading">Certification</h2>
+      <div class="container content">
+       <div class="row">
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+          
+          <img class="tmf-building img-fluid" src="./assets/imgs/tmf.webp">
+        </div>
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+            <div class="visitbtn">
+            <p>My Works at</p>
+            <h2 class="certification-place-name">Tech Mahindra Smart Academy</h2>
+            <a href="http://studentworks.smart-academy.in/458/" target="_blank"
+              >Check out Now</a
+            >
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <!-- <section class="MyResume" id="myresume">
+      <div class="container">
+        <h2 class="sub-heading">MY RESUME</h2>
+        <div class="ResumeBtns">
+          <a href="assets/myresume.pdf" download>
+            <button class="btn DownloadResumeBtn">
+              <i class="fas fa-file-download"></i> Download
+            </button>
+          </a>
+          <br />
+
+          <button id="ShowR" class="btn DRbtn">
+            <i id="Open" class="fas fa-eye"></i>
+            <i id="Close" class="fas fa-eye-slash" style="display: none"></i>
+            View
+          </button>
+        </div>
+        <div id="showresume" class="ShowResumeImg" style="display: none">
+          <img src="assets/imgs/resume.png" class="w-100" alt="my resume" />
+        </div>
+      </div>
+    </section> -->
+
+    <!-- PORTFOLIO -->
+    <!-- Projects Start -->
+    <section id="myportfolio" class="MyPortfolio">
+      <div class="container">
+        <h2 class="MyPortfolioHeading white">PORTFOLIO</h2>
+        <h5 class="live_pro">Live Projects</h5>
+        <div id="Live_Projectas" class="mb-5">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img" data-aos="fade-up"
+              data-aos-duration="1500">
+                <a href="http://www.webdevelopervizag.in" target="_blank">
+                  <img
+                    class="img-fluid grow_img"
+                    src="assets/imgs/webdevelopervizag.png"
+                    alt="webdevelopervizag image"
+                    title="webdevelopervizag"
+                /></a>
+              </div>
+              <h6 class="text-center">
+                Web Developer Vizag is a my Online Start-Up
+              </h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img" data-aos="fade-down"
+              data-aos-duration="1500">
+                <a href="http://www.orangefoodsbt.com" target="_blank">
+                  <img
+                    class="img-fluid grow_img"
+                    src="assets/imgs/orangefoodsbt.png"
+                    alt="webdevelopervizag image"
+                    title="orangefoodsbt"
+                /></a>
+              </div>
+              <h6 class="text-center">
+                Orange Foods BT is a Online Food Ordering Service
+              </h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div id="Projects" class="mt-5">
+          <h5 class="live_pro">Projects On My Youtube</h5>
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https://www.youtube.com/embed/nNLV-fZgISM"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Covid 19 Poster</h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https://www.youtube.com/embed/-KAMI2O8I7A"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Web Prototype</h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https://www.youtube.com/embed/gZu8pfZCIm0"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Single Page Website</h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https://www.youtube.com/embed/_YYqbX6ULd4"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Cafe Website Dynamic Site</h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https://www.youtube.com/embed/4fgAXlglQGk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Avengers Website</h6>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+              <div class="project_img">
+                <iframe
+                  width="500"
+                  height="320"
+                  src="https:////www.youtube.com/embed/EJRopI5nE4s"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="grow_img"
+                ></iframe>
+              </div>
+              <h6 class="text-center">Gym Website</h6>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- My Projects -->
+    <section class="projects" id="myprojects">
+      <div class="container">
+        <h2 class="sub-heading">Projects</h2>
+        <div class="project-details">
+          <!-- personal project -->
+          <div class="my-personal-project">
+            <h2 class="sub-heading">My Start Up</h2>
+            <!-- 1.startup project -->
+            <div class="cards-spacing shadow">
+              <div class="card">
+                <h5 class="card-header">Web Developer Vizag</h5>
+                <div class="card-body">
+                  <!-- <h5 class="card-title">
+                   Web Developer Vizag
+                  </h5> -->
+                  <p class="card-text text-center">
+                    <strong>Launched On:</strong> June 2019
+                  </p>
+                  <p class="card-text">
+                    <strong>Web Developer Vizag</strong> is my start up which is built by me from scratch (production to deployment).
+                  </p>
+                  <p class="card-text">
+                    <strong>Web Developer Vizag</strong> has built using both
+                    <strong>Frontend  & Backend Technologies</strong>, This site also includes a <strong>Admin Panel</strong> through which I can manage and access my frontend content along with many other settings.
+                  </p>
+                  <p class="card-text">
+                    <strong>Web Developer Vizag</strong> the Aim of this Start Up is to build small and medium size websites for the business who are looking for a website. We also provide <strong>Graphic Designing</strong> services along with complete <strong>Web Services</strong> like <strong>(Hosting and SEO)</strong>
+                  </p>
+                  <p class="card-text">
+                    I also run a <strong>Instagram</strong> & <strong>YouTube</strong>  channel with the name <strong>Web Developer Vizag</strong> where I design and create <strong>Web Prototype's</strong>, <strong>Website's</strong>, <strong>Graphic Design's</strong>, and much more.
+                  </p>
+                 
+
+                  <p class="card-text">
+                    Under the name of <strong>Web Developer Vizag</strong> I have <strong>Created</strong> many <strong>Graphic Designs</strong> for <strong>Cafe's, Food Ordering Service Providers, Clothes Store</strong> and more. Along with this I have also created few websites for my clients. 
+                  </p>
+
+                  <p class="card-text">
+                    <strong>Languages used:</strong>
+                    (HTML5, CSS, SCSS, Bootstrap, JavaScript, jQuery, PHP, MySQL).
+                  </p>
+                 <div class="view-site-btn">
+                  <a
+                  href="http://www.webdevelopervizag.in"
+                  class="btn view-btn"
+                  target="_blank"
+                  >Website</a
+                >
+                <a
+                  href="https://bit.ly/3hOyzsx"
+                  class="btn view-btn"
+                  target="_blank"
+                  >Youtube</a
+                >
+                <a
+                  href="https://bit.ly/3bh3FFu"
+                  class="btn view-btn"
+                  target="_blank"
+                  >Instagram</a
+                >
+                 </div>
+                </div>
+              </div>
+            </div>
+            <!-- 1.startup project -->
+
+          </div>
+        </div>
+              <!-- personal project -->
+
+          <!-- tmf projects -->
+          <div class="tmf-projects">
+            <h2 class="sub-heading">Tech Mahindra Projects</h2>
+            <!-- 1. mini project -->
+            <div class="cards-spacing">
+              <div class="card shadow">
+                <h5 class="card-header">Mini Project - (UI)</h5>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Avengers Wallpaper Downloading Site.
+                  </h5>
+                  <p class="card-text text-center">
+                    <strong>Build Duration:</strong> Mar 2020 to Mar 2020
+                  </p>
+                  <p class="card-text">
+                    <strong>Avengers Wallpaper Downloading Site</strong> is 
+                    completely built with the
+                    <strong>Frontend Technologies</strong>. Basically the main
+                    concept is to download the best wallpapers for mobiles,
+                    laptops & desktops.
+                  </p>
+                  <p class="card-text">
+                    <strong>Languages used:</strong>
+                    (HTML5, CSS, SCSS, Bootstrap, JavaScript, jQuery).
+                  </p>
+                  <div class="view-site-btn">
+                  <a
+                    href="https://bit.ly/3m63XDt"
+                    class="btn view-btn"
+                    target="_blank"
+                    >Visit Site</a
+                  >
+                  <a
+                    href="https://youtu.be/4fgAXlglQGk"
+                    class="btn view-btn"
+                    target="_blank"
+                    >View Video</a
+                  >
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- 1. mini project -->
+
+            <!-- 2. major project -->
+            <div class="cards-spacing">
+              <div class="card shadow">
+                <h5 class="card-header">Main Project - (UI & PHP)</h5>
+                <div class="card-body">
+                  <h5 class="card-title">WildLife - Tickets Booking System</h5>
+                  <p class="card-text text-center">
+                    <strong>Build Duration:</strong> Dec 2019 to Feb 2020
+                  </p>
+                  <p class="card-text">
+                    <strong>Wildlife - Tickets Booking System</strong> is
+                    completely built on both
+                    <strong>Frontend & Backend Technologies</strong>
+                    . <br /><br />
+                    First, this site was my front-end
+                    <strong>mini project</strong>. Later this site was converted
+                    to the <strong>Main Project</strong>. <br />
+                    The site is inspired by the very famous site
+                    <strong>National Geographic</strong>
+                    <em>(www.nationalgeographic.com 2019 Look)</em>. <br />
+                    Basically,
+                    <strong>the main concept is to Book Zoo Tickets</strong> in
+                    which a visitor can go and book their tickets in Zoo and can
+                    even download their respective tickets. <br />
+                    In addition to this Tickets Booking System
+                    <strong>I have tried to build an e-commerce system </strong>
+                    with in this site. <br />
+                    Along with this, I have also created this
+                    <strong>Site Logo</strong>, which is used on this site in
+                    <strong>Photoshop</strong>.
+                  </p>
+                  <p class="card-text">
+                    <strong>Languages used:</strong>
+                    (HTML5, CSS, Bootstrap, JavaScript, jQuery, PHP & MySQL).
+                  </p>
+                  <div class="view-site-btn">
+                  <a
+                    href="https://bit.ly/3mj8v9N"
+                    class="btn view-btn"
+                    target="_blank"
+                    >View Project</a
+                  >
+                </div>
+                </div>
+              </div>
+            </div>
+            <!-- 2. major project -->
+          </div>
+          <!-- tmf projects -->
+        </div>
+      </div>
+    </section>
+    <!-- My Projects -->
+
+
+  
+
+
+    <!-- FOLLOW ME ON -->
+    <section class="SocialMedia">
+      <div class="container">
+        <h5 class="SocialHeading">Follow me on</h5>
+        <div class="GoToChannel">
+          <a href="https://bit.ly/3bh3FFu" target="_blank" title="instagram"
+            ><button class="btn VisitChannelYT">
+              <i class="fab fa-2x fa-instagram"></i></button
+          ></a>
+          <a href="https://bit.ly/3hOyzsx" target="_blank" title="youtube"
+            ><button class="btn VisitChannelYT">
+              <i class="fab fa-2x fa-youtube"></i></button
+          ></a>
+          <a href="https://bit.ly/3sLGXwj" target="_blank" title="github"
+            ><button class="btn VisitChannelYT">
+              <i class="fab fa-2x fa-github"></i></button
+          ></a>
+          <a href="https://bit.ly/3kiTKm8" target="_blank" title="linkedin"
+            ><button class="btn VisitChannelYT">
+              <i class="fab fa-2x fa-linkedin"></i></button
+          ></a>
+        </div>
+        <br>
+        <!-- <h5 class="SocialHeading">my social media Handles</h5>
+       <div class="row">
+         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 iframe_window_section">
+            <iframe class="iframe_window" src="https://bit.ly/3hOyzsx" title="youtube handle" loading="lazy">
+          </iframe>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 iframe_window_section">
+            <iframe class="iframe_window" src="https://bit.ly/3bh3FFu" title="instagram handle" loading="lazy"></iframe>
+         </div>
+       </div> -->
+      
+      </div>
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <!-- Contact Start -->
+    <section class="ContactMe" id="contactdetails">
+      <div class="container">
+        <h2 class="sub-heading">Contact Details</h2>
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <img
+              src="assets/imgs/Group video-amico.svg"
+              class="CtcImg"
+              alt="contact"
+            />
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="cdetailsbox">
+              <ul>
+                <!-- <li>
+                  <a href="tel:+918639231934">
+                    <i class="fa-solid fa-phone"></i> +91 8639231934
+                  </a>
+                </li>
+                 -->
+             
+                <li>
+                  <a href="https://bit.ly/3kiTKm8" target="_blank" title="linkedin">
+                          <i class="fab fa-2x fa-linkedin"></i> Connect with me @Linkedin
+                  </a>
+                </li>
+
+                <li>
+                  <p>Ping me on Linkedin for my resume or any freelancing work.</p>
+                </li>
+
+                <!-- <li>
+                  <a href="mailto:im.wb.webdev@gmail.com">
+                    <i class="fas fa-envelope"></i> im.wb.webdev@gmail.com
+                  </a>
+                </li> -->
+                <!-- <li>
+                  <a
+                    href="https://goo.gl/maps/hLxc3VGjT3CFTPTf7"
+                    target="_blank"
+                  >
+                    <i class="fas fa-2x fa-map-marker-alt"></i> Visakhapatnam, INDIA.
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="Footer">
+      <p>Copyright © 2020 - <span id="currentyear"></span>, Waseem's Portfolio, All Rights Reserved.</p>
+      <p>Designed by Waseem.</p>
+    </footer>
+
+    <!--jQuery + Bootstrap + Popper + -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Optional JavaScript -->
+    <script src="assets/js/mainscript.min.js"></script>
+  </body>
+</html>
